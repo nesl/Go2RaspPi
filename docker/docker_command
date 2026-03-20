@@ -1,0 +1,1 @@
+sudo docker run --rm --net=host --privileged -v /run/dbus:/run/dbus:ro -v ros2:/app -it ros
